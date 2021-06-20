@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header CSS start*/
+header{
+	width: 100%;
+   
+
+}
+.container{
+	overflow: hidden;
+	width: 90%;
+    
+    margin: 0 auto;
+    
+}
+.logo{
+	float: left;
+	width: 10%;
+    
+    
+}
+.logo img{
+	    width: 100%;
+}
+.menu{
+	float: right;
+    width: 50%;
+   
+    padding:14px 0;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 19px;
+    color: #0E2555;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+	color: #0C6BFF;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
